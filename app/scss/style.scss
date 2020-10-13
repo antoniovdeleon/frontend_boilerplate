@@ -1,0 +1,21 @@
+html {
+	box-sizing: border-box; /*  ensures the width and height of elements will   */
+	font-size: 100%;	    /*  will include any padding that we create padding */
+}		    			    /*  won't add anything in addition to width         */
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	padding: 20px;
+	background-color: #cecece;
+	color: #000000;
+	font-family: 'Roboto', sand-serif;
+	line-height: 1.3;
+}
+
+main {
+	background-color: #6B9B91;
+	padding: 20px;
+}
